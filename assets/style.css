@@ -1,28 +1,9 @@
-h1 {
-    color: pink
-}
-
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Loop', cursive;
 }
 
-#navigation {
-    background-color: rgba(105, 86, 86, 0.616);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-}
-
-container {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    flex: 1;
+html {
+    box-sizing: border-box;
 }
 body {
     display: flex;
@@ -30,11 +11,49 @@ body {
     min-height: 100vh;
     margin: 10px;
 }
+h1 {
+    color: pink;
+    font-family: "Zen Loop", cursive;
+    font-weight: 400;
+    font-size: 4em;
+}
+p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #333;
+}
+
+#navigation-background {
+    background-color: rgba(105, 86, 86, 0.616);
+}
+
+#navigation-links {
+    background-color: rgba(105, 86, 86, 0.616);
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.6em;
+}
+
+#main-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    flex: 1;
+}
+
 
 img {
-    width: 100%;
+    width: 75%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 15%;
+    border-color: #333;
 }   
 
 
