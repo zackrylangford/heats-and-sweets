@@ -1,0 +1,53 @@
+h1 {
+    color: pink
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#navigation {
+    background-color: rgba(105, 86, 86, 0.616);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    flex: 1;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}   
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: bottom;
+    bottom: 0;
+}
+
+#copyright {
+    font-size: 0.8em;
+    color: white;
+}
